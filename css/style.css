@@ -31,6 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
+    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,6 +39,10 @@ a:hover {
     position: relative;
 }
 
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .bloc-lg {
     padding: 100px 50px;
@@ -94,7 +99,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-
+.d-bloc {
+    color: rgba(255, 255, 255, .7);
+}
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -156,6 +163,10 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
+.d-bloc .panel {
+    color: rgba(0, 0, 0, .5);
+}
+
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
@@ -182,6 +193,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+.d-bloc .panel,
+.l-bloc {
+    color: rgba(0, 0, 0, .5);
+}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -703,7 +718,8 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto auto auto auto;
+    box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
@@ -744,6 +760,18 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+}
+
+.bgc-white {
+    background-color: #FFFFFF;
+}
+
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
+
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
 }
 
 .tc-white {
