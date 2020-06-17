@@ -46,7 +46,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -342,6 +342,25 @@ a:hover {
     z-index: 2;
 }
 
+.row {
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+footer .col-sm-12 .row .col-sm-4 li a {
+  line-height: 3em;
+}
+
+#bloc-7 .bloc-lg .row .col-sm-6 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#bloc-7 .bloc-lg .row {
+  display: grid;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -630,7 +649,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #0d0d0d!important;
+    color: black !important;
 }
 
 .container {
@@ -674,20 +693,18 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0 auto;
 }
 
 h2 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    /*color: #333333!important;*/
 }
 
 .title,
