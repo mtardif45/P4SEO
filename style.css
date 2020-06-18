@@ -204,7 +204,7 @@ a:hover {
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
 .l-bloc h2 a,
-.l-bloc h3 a,
+.l-bloc a,
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
@@ -242,6 +242,12 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+#bloc-5-cta h3 {
+color: #F3976C;
+font-weight: bold;
+text-shadow: 2px 1px black;
+}
+
 .voffset {
     margin-top: 30px;
 }
@@ -265,6 +271,7 @@ a:hover {
     font-size: 40px;
     color: #F3976C;
     font-weight: bold;
+    text-shadow: 2px 1px black;
 }
 
 .navbar {
@@ -362,6 +369,7 @@ footer .col-sm-12 .row .col-sm-4 li a {
 }
 
 @media (min-width: 768px) {
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -639,7 +647,6 @@ a[data-lightbox]:hover img {
 }
 
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -680,7 +687,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: 0 auto;
 }
 
 .h1 {
@@ -690,7 +697,7 @@ p {
 
 .cta-hero {
     margin-top: 20px;
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 24px;
@@ -718,18 +725,9 @@ h2 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -843,9 +841,9 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-right: constant(safe-area-inset-right);*/
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -855,12 +853,13 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
 @media (max-width: 767px) {
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1003,7 +1002,7 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
+  }
 }
 
 @media (max-width: 767px) {
