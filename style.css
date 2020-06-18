@@ -309,6 +309,11 @@ text-shadow: 2px 1px black;
     z-index: 1;
 }
 
+.img-navbar {
+  height: 40px;
+  width: auto;
+}
+
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -351,7 +356,7 @@ text-shadow: 2px 1px black;
 
 .row {
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 footer .col-sm-12 .row .col-sm-4 li a {
@@ -794,6 +799,7 @@ h2 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+/*
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -841,9 +847,9 @@ h2 {
         overflow-x: hidden;
         position: relative;
     }
-    /*.bloc {
+.bloc {
         padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);*/
+        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -858,7 +864,7 @@ h2 {
     }
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 
     .page-container {
         overflow-x: hidden;
