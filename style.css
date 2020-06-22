@@ -373,6 +373,10 @@ footer .col-sm-12 .row .col-sm-4 li a {
   font-size: 18px;
 }
 
+.col-sm-6 {
+  padding-top: 70px;
+}
+
 #bloc-7 .bloc-lg .row {
   display: grid;
 }
@@ -701,7 +705,11 @@ a {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+}
+
+.row .tight-width-whitespace {
+  max-width: 800px;
+  margin: auto auto auto auto;
 }
 
 .icons {
