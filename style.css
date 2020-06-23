@@ -26,7 +26,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }*/
-
 .bloc {
     width: 100%;
     clear: both;
@@ -242,8 +241,9 @@ font-weight: bold;
 text-shadow: 2px 1px black;
 }
 
-.pt-5 .text-center {
+.pt-5 h1 {
   color: #F3976C;
+  text-shadow: 2px 2px black;
 }
 
 .text-center .cta-hero {
@@ -663,7 +663,6 @@ a {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
-    color: #f3976c;
 }
 
 .cta-hero {
